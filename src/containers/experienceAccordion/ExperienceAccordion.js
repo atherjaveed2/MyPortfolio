@@ -36,10 +36,18 @@ class ExperienceAccordion extends Component {
                     }),
                   },
                 }}
+                // Set the expanded prop to true to keep the panel open by default
+                expanded={true}
               >
-{section["experiences"].map((experience,index) => {
+                {section["experiences"].map((experience, index) => {
                   return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
+                    <ExperienceCard
+                      index={index}
+                      totalCards={section["experiences"].length}
+                      experience={experience}
+                      theme={theme}
+                      key={experience.title} // Add a key for each ExperienceCard
+                    />
                   );
                 })}
               </Panel>

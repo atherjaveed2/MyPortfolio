@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "M A Javeed Ather Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://javeedather.com/",
   },
 };
 
@@ -24,8 +24,9 @@ const greeting = {
   subTitle:
     "In the world of technology, versatility is the key. As a full-stack developer, I thrive on bridging the gap between front-end elegance and back-end functionality, ensuring seamless user experiences.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/atherjaveed2/MyPortfolio",
+    "https://drive.google.com/file/d/1tK4yTQBgUVCV5rFua1HddbImoL3k44WC/view?usp=drive_link",
+  portfolio_repository:
+    "https://drive.google.com/file/d/1tK4yTQBgUVCV5rFua1HddbImoL3k44WC/view?usp=drive_link",
   githubProfile: "https://github.com/atherjaveed2",
 };
 
@@ -41,13 +42,13 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/atherjaveed2",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/javeed-ather-81353218b/",
+    link: "https://www.linkedin.com/in/m-a-javeed-ather-lnu-81353218b/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -333,116 +334,118 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-  ],
+  // certifications: [
+  //   {
+  //     title: "Machine Learning",
+  //     subtitle: "- Andrew Ng",
+  //     logo_path: "stanford_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+  //     alt_name: "Stanford University",
+  //     color_code: "#8C151599",
+  //   },
+  //   {
+  //     title: "Deep Learning",
+  //     subtitle: "- Andrew Ng",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#00000099",
+  //   },
+  //   {
+  //     title: "ML on GCP",
+  //     subtitle: "- GCP Training",
+  //     logo_path: "google_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+  //     alt_name: "Google",
+  //     color_code: "#0C9D5899",
+  //   },
+  //   {
+  //     title: "Data Science",
+  //     subtitle: "- Alex Aklson",
+  //     logo_path: "ibm_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+  //     alt_name: "IBM",
+  //     color_code: "#1F70C199",
+  //   },
+  //   {
+  //     title: "Big Data",
+  //     subtitle: "- Kim Akers",
+  //     logo_path: "microsoft_logo.png",
+  //     certificate_link:
+  //       "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+  //     alt_name: "Microsoft",
+  //     color_code: "#D83B0199",
+  //   },
+  //   {
+  //     title: "Advanced Data Science",
+  //     subtitle: "- Romeo Kienzler",
+  //     logo_path: "ibm_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+  //     alt_name: "IBM",
+  //     color_code: "#1F70C199",
+  //   },
+  //   {
+  //     title: "Advanced ML on GCP",
+  //     subtitle: "- GCP Training",
+  //     logo_path: "google_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+  //     alt_name: "Google",
+  //     color_code: "#0C9D5899",
+  //   },
+  //   {
+  //     title: "DL on Tensorflow",
+  //     subtitle: "- Laurence Moroney",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#00000099",
+  //   },
+  //   {
+  //     title: "Fullstack Development",
+  //     subtitle: "- Jogesh Muppala",
+  //     logo_path: "coursera_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+  //     alt_name: "Coursera",
+  //     color_code: "#2A73CC",
+  //   },
+  //   {
+  //     title: "Kuberenetes on GCP",
+  //     subtitle: "- Qwiklabs",
+  //     logo_path: "gcp_logo.png",
+  //     certificate_link:
+  //       "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+  //     alt_name: "GCP",
+  //     color_code: "#4285F499",
+  //   },
+  //   {
+  //     title: "Cryptography",
+  //     subtitle: "- Saurabh Mukhopadhyay",
+  //     logo_path: "nptel_logo.png",
+  //     certificate_link:
+  //       "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+  //     alt_name: "NPTEL",
+  //     color_code: "#FFBB0099",
+  //   },
+  //   {
+  //     title: "Cloud Architecture",
+  //     subtitle: "- Qwiklabs",
+  //     logo_path: "gcp_logo.png",
+  //     certificate_link:
+  //       "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+  //     alt_name: "GCP",
+  //     color_code: "#4285F499",
+  //   },
+  // ],
+
+  certifications: [],
 };
 
 const experience = {
@@ -464,12 +467,17 @@ const experience = {
           duration: "November 2022 - December 2023",
           location: "Hyderabad, India",
           description: [
-            "Led hands-on training of 3 interns in Golang, PHP, and Java, guiding them through SDLC process, implementing Agile/Scrum practices for sprint planning and grooming, culminating in the delivery of high-quality code with minimal technical debt.",
-            "Optimized SQL queries for email transactions, reducing cron job run times by 40% for 150k emails daily.",
-            "Refined code quality by 25% through rigorous code reviews, resulting in a 20% reduction in code defects and a 15% increase in code maintainability",
-            "Optimised SQL queries for email transactions, reducing cron job run times by 40% for 150k emails daily.",
-            "Implemented a scalable Selenium testing framework that streamlined the testing process, leading to the identification and resolution of critical bugs 40% faster than previous manual testing methods.",
-            "Streamlined document workflow by integrating electronic signatures into existing processes; reduced document processing time by 25% and enhanced overall efficiency by 35%, benefiting 50+ team members across departments.",
+            "⚡ Led hands-on training of 3 interns in Golang, and Java guiding them through SDLC process, implementing Agile/Scrum practices for sprint planning and grooming, culminating in the delivery of high-quality code with minimal technical debt.",
+
+            "⚡ Optimized SQL queries for email transactions, reducing cron job run times by 40% for 150k emails daily.",
+
+            "⚡ Refined code quality by 25% through rigorous code reviews and test driven development (TDD), resulting in a 20% reduction in code defects and a 15% increase in code maintainability.",
+
+            "⚡ Simplified document workflow by integrating electronic signatures into existing processes; reduced document processing time by 25% and enhanced overall efficiency by 35%, benefiting 50+ team members across departments.",
+
+            "⚡ Implemented a scalable Selenium testing framework that streamlined the testing process, leading to the identification and resolution of critical bugs 40% faster than previous manual testing methods.",
+
+            "⚡ Designed and executed automated testing frameworks that simplified back-end integration tests; reduced testing time by 50%, allowing for faster deployment cycles and boosted team efficiency in the software development life cycle.",
           ],
           color: "#000000",
         },
@@ -513,7 +521,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Created an exciting portfolio platform on AWS, powered by dynamic project deployment through Docker Compose. Seamlessly scalable, it adapts to user engagement, ensuring optimal resource usage and limitless project hosting with simple storage expansion. Integrated AWS services like S3, SNS, Route53, and Nginx guarantee unparalleled performance, fortified by IAM and CloudWatch for top-notch security and monitoring.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -525,27 +533,27 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
+    // {
+    //   id: "neuro-symbolic-sudoku-solver",
+    //   name: "Neuro-Symbolic Sudoku Solver",
+    //   createdAt: "2023-07-02T00:00:00Z",
+    //   description: "Paper published in KDD KiML 2023",
+    //   url: "https://arxiv.org/abs/2307.00653",
+    // },
+    // {
+    //   id: "mdp-diffusion",
+    //   name: "MDP-Diffusion",
+    //   createdAt: "2023-09-19T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/mdp-diffusion/",
+    // },
+    // {
+    //   id: "consistency-models",
+    //   name: "Consistency Models",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/consistency-models/",
+    // },
   ],
 };
 
@@ -555,7 +563,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I have a strong enthusiasm for creating scalable and easily maintainable applications using the latest technologies. Currently, I am actively seeking opportunities in the fields of Software Development and DevOps. If you are aware of any open positions, have inquiries, or simply want to connect and say hello, please don't hesitate to get in touch with me!",
   },
   blogSection: {
     title: "Blogs",
